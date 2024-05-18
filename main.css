@@ -1,0 +1,309 @@
+.c {
+    text-align: center;
+}
+
+/* Transparent bg */
+/*input placeholder color*/
+/*Background position center and size cover*/
+/*Unstyle ul*/
+/* Standart shadow */
+.nobreak {
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -o-column-break-inside: avoid;
+    -ms-column-break-inside: avoid;
+    display: table;
+}
+
+.df {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.dif {
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+#hero .carousel-item.slide_1.chistka .container .descr_part .left {
+    font-size: 30px;
+}
+
+#hero .carousel-item.slide_1 {
+    background: #6D73CA;
+    height: 600px;
+    max-height: 100%;
+}
+
+#hero .carousel-item.slide_1 .container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    top: 10px;
+    color: #ffffff;
+}
+
+#hero .carousel-item.slide_1 .container .descr_part {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#hero .carousel-item.slide_1 .container .descr_part .left {
+    width: 50%;
+    border-right: 1px solid #ffffff;
+    text-transform: uppercase;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
+    padding: 10px 0;
+    font-size: 19px;
+}
+
+#hero .carousel-item.slide_1 .container .descr_part .left span {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .carousel-item.slide_1 .container .descr_part .right {
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+#hero .carousel-item.slide_1 .container .descr_part .right span {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .carousel-item.slide_1 .container .image_part {
+    max-width: 320px;
+    width: 100%;
+    max-height: 172px;
+    height: 100%;
+    background: url(/wp-content/themes/twentytwenty/assets/images/slide-home/banner-mobile.svg) 95% 50% / cover no-repeat;
+}
+
+#hero .carousel-item.slide_1 .container .button_part {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#hero div.carousel-item.slide_1 .container .button_part .button {
+    width: 100vw;
+    max-width: 288px;
+    padding: 12px 15px;
+    background-color: #F18F01;
+    border-radius: 5px;
+    text-transform: capitalize;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+#hero .carousel-item.slide_1 .container .button_part .button:hover {
+    color: #eeeeee;
+    background-color: #d78003;
+}
+
+/*#hero .carousel-item.slide_1 .container .button_part span {
+  margin-top: 5px;
+  font-size: 13px;
+}*/
+#hero .carousel-item.slide_4 {
+    background: url("https://windent.ru/wp-content/uploads/2021/10/k_min.jpg") center bottom;
+    background-size: cover;
+    height: 600px;
+    max-height: 100%;
+}
+
+#hero .carousel-item.slide_4 .container {
+    padding: 80px 40px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    top: 10px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+#hero .carousel-item.slide_4 .container .button {
+    padding: 0.8em 1.44em;
+    margin-top: 25px;
+    background-color: #8D8AA2;
+}
+
+#hero .carousel-item.slide_4 .container .button:hover {
+    color: #eeeeee;
+}
+
+#hero .carousel-item.slide_4 .container .text1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+}
+
+#hero .carousel-item.slide_4 .container .line {
+    width: 260px;
+    height: 1px;
+    background: #D3D6E5;
+    margin: 25px 0;
+}
+
+@media (min-width: 2500px) {
+    #hero div.carousel-item.slide_1 {
+        height: 760px;
+    }
+}
+
+@media (min-width: 720px) {
+    #hero .carousel-item.slide_1 {
+        height: 574px;
+        max-height: 100%;
+        background-image: url(/wp-content/themes/twentytwenty/assets/images/slide-home/banner-home-bg-full-min.jpg);
+        background-position: 55% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #hero .carousel-item.slide_1 .container {
+        -ms-flex-align: start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+        top: 0;
+    }
+
+    #hero .carousel-item.slide_1 .container .descr_part {
+        width: 700px;
+    }
+
+    #hero .carousel-item.slide_1 .container .descr_part .left {
+        font-size: 36px;
+        font-weight: 600;
+        padding: 0;
+    }
+
+    #hero .carousel-item.slide_1 .container .descr_part .right {
+        /*font-size: 20px;*/
+        padding-left: 30px;
+    }
+
+    #hero .carousel-item.slide_1 .container .descr_part .right ul {
+        margin-left: 0;
+    }
+
+    #hero .carousel-item.slide_1 .container .descr_part .right ul li {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #hero .carousel-item.slide_1 .container .descr_part .right span {
+        margin: 5px 0;
+    }
+
+    #hero .carousel-item.slide_1 .container .image_part {
+        display: none;
+    }
+
+    #hero .carousel-item.slide_1 .container .button_part {
+        -ms-flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    #hero .carousel-item.slide_1 .container .button_part .button {
+        padding: 1em 1.64em;
+        background-color: #8D8AA2;
+    }
+
+    /*  #hero .carousel-item.slide_1 .container .button_part span {
+        margin-top: 0px;
+        margin-left: 30px;
+        font-size: 20px;
+      }*/
+    #hero .carousel-item.slide_4 {
+        background: url("https://windent.ru/wp-content/uploads/2021/10/k.jpg") center center;
+    }
+
+    #hero .carousel-item.slide_4 .container {
+        -ms-flex-align: start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+        height: 100%;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        color: #a197bc;
+    }
+
+    #hero .carousel-item.slide_4 .container .text1 {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    #hero .carousel-item.slide_4 .container .line {
+        margin: 30px 0;
+        width: 440px;
+        height: 2px;
+        background: #bab7d1;
+    }
+
+    #hero .carousel-item.slide_4 .container .text2 {
+        font-size: 40px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1190px) {
+    #hero .carousel-item.slide_4 .container {
+        padding-left: 0;
+    }
+}
+
+#hero .carousel-item.slide_1 .container {
+    display: none !important;
+}
+
+/*# sourceMappingURL=main.css.map */
